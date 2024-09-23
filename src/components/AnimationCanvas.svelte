@@ -8,7 +8,7 @@
 
     function initalize() {
         // Get canvas context
-        ctx = canvas.getContext('2d');
+        ctx = initCanvas(canvas);
     }
 
     // Animation loop
